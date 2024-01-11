@@ -16,30 +16,32 @@ import screenshot5 from '@/images/screenshots/screenshot5.png'
 const features = [
   {
     title: '사용자의 프로필 등록',
-    description: '프로필 등록 및 원하는 근무 방식 선택 (파트타임/단기/장기)',
+    description:
+      '사용자의 직종 등록 및 원하는 근무 유형(파트타임, 단기, 장기)을 선택합니다.    ',
     image: screenshot1,
   },
   {
     title: '기업의 채용 의뢰',
     description:
-      '필요한 포지션 등록, 예를 들면 <React.js 및 AI 프로젝트 경험이 있는 베트남 프론트엔드 개발자 2명>과 같은 세부 요건 명시',
+      '기업이 필요한 직위를 등록하고 요구 사항을 명확히 설명합니다. 예를 들면 "React.js 및 Next, Tailwind, TanStack Query를 사용할 수 있으며 AI 프로젝트 경험이 있는 베트남 또는 인도네시아 프론트엔드 개발자 2명" 같은 세부 요건을 명시합니다.',
     image: screenshot2,
   },
   {
     title: '관리자의 인재 매칭',
     description:
-      'AI 기반 매칭 시스템을 활용하여 기업이 요구한 인재를 5명 선별하고 기업에 소개',
+      'AI 기반 매칭 시스템을 활용하여 기업이 요구한 인재를 선별하고 기업에 추천합니다.',
     image: screenshot3,
   },
   {
     title: '사용자, 기업 간 계약 체결',
     description:
-      '선별된 후보자 중 선택한 인재와 화상 미팅 또는 현지 관리자를 통해 계약 이행',
+      '선별된 후보자 중 선택한 인재와 화상 미팅 또는 현지 관리자를 통해 채용 계약을 체결합니다.',
     image: screenshot4,
   },
   {
-    title: '관리자는 비용처리 및 운영',
-    description: '비용은 기업이 플랫폼에 지불하고, 플랫폼이 사용자에게 전달',
+    title: '비용처리 및 운영',
+    description:
+      '기업은 채용 플랫폼에 지불을 수행하고, 플랫폼은 지급금액을 사용자에게 전달합니다.',
     image: screenshot5,
   },
 ]
@@ -81,13 +83,13 @@ export function PrimaryFeatures() {
       <Container className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            AI 인재매칭, 번역, OCR, PG, 요약 서비스 제공
+            지구 반대편에서 이뤄지는 AI 기반 완벽한 매칭 서비스
           </h2>
           <p className="mt-6 text-lg tracking-tight text-purple-100">
-            AI 기반의 효율적인 인재 매칭 서비스와 계약 이행을 위한 AI 번역, OCR
-            이미지 번역, 채팅로그 시스템을 제공합니다. <br />
-            PG 서비스를 활용한 간편한 비용 체결 및 AI 기반 요약 서비스로 사용자
-            경험을 위해 노력하고 있습니다.
+            AI 기반의 완벽한 인재 매칭 서비스와 순조로운 계약 이행을 위한 AI
+            요약, 다국어 번역 채팅 시스템을 제공합니다. <br />
+            PG 간편결제 서비스를 활용한 간단한 비용 체결로 사용자 편의성을
+            제공하고 있습니다.
           </p>
         </div>
         <Tab.Group

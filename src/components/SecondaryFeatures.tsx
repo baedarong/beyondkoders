@@ -22,9 +22,9 @@ const features: Array<Feature> = [
   {
     name: '사용자',
     summary:
-      '퇴근 후 단기 부수입, 기업 맞춤 프로젝트, 책임감 강조로 커리어 구축.',
+      '금전적 이익 뿐만 아니라, 커리어 맞춤 프로젝트에 참여할 수 있습니다',
     description:
-      '단기 부수입을 확보하고, 기업과 경력에 맞는 프로젝트를 선택하여 퇴근 후에도 활동할 수 있습니다. 책임감을 강조하며 원하는 커리어를 구축하세요.',
+      '파트타임/단기/장기에 따른 금전적인 이득을 취하고, 본인의 커리어에 관련한 프로젝트를 선택하여 활동할 수 있습니다. BeyondKoders를 통해 원하는 커리어를 구축하세요.',
     image: user,
     icon: function ContactsIcon() {
       return (
@@ -45,9 +45,9 @@ const features: Array<Feature> = [
   {
     name: '기업',
     summary:
-      '비용 효율적 고용 모델로 기업에 도움이 되며, 품질 높은 인력을 확보합니다.',
+      '고품질 저비용 고용 모델은 기업의 인건비를 효과적으로 줄이는데 도움이 됩니다.',
     description:
-      '우리는 적은 비용으로 품질 높은 인력을 기업에 제공하여 구인구직 어려움을 겪는 기업에 실질적인 도움을 주며, 비용 효율적인 고용 모델을 제공합니다.',
+      '적은 비용으로 품질 높은 인력을 기업에 제공하여 구인구직 어려움을 겪는 기업에 실질적인 도움을 줍니다. ',
     image: company,
     icon: function InventoryIcon() {
       return (
@@ -70,40 +70,40 @@ const features: Array<Feature> = [
       )
     },
   },
-  {
-    name: '관리자',
-    summary: '미래성장, 수익모델, 우수인재 확보의 기회',
-    description:
-      '미래 성장 기회를 발굴하고 매칭 수수료를 통해 지속적인 수익 모델을 구축하며, 플랫폼을 통해 좋은 조건의 구직자 정보를 보유하고 강화합니다.',
-    image: admin,
-    icon: function ReportingIcon() {
-      let id = useId()
-      return (
-        <>
-          <defs>
-            <linearGradient
-              id={id}
-              x1="11.5"
-              y1={18}
-              x2={36}
-              y2="15.5"
-              gradientUnits="userSpaceOnUse"
-            >
-              <stop offset=".194" stopColor="#fff" />
-              <stop offset={1} stopColor="#6692F1" />
-            </linearGradient>
-          </defs>
-          <path
-            d="m30 15-4 5-4-11-4 18-4-11-4 7-4-5"
-            stroke={`url(#${id})`}
-            strokeWidth={2}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-        </>
-      )
-    },
-  },
+  // {
+  //   name: '관리자',
+  //   summary: '미래성장, 수익모델, 우수인재 확보의 기회',
+  //   description:
+  //     '미래 성장 기회를 발굴하고 매칭 수수료를 통해 지속적인 수익 모델을 구축하며, 플랫폼을 통해 좋은 조건의 구직자 정보를 보유하고 강화합니다.',
+  //   image: admin,
+  //   icon: function ReportingIcon() {
+  //     let id = useId()
+  //     return (
+  //       <>
+  //         <defs>
+  //           <linearGradient
+  //             id={id}
+  //             x1="11.5"
+  //             y1={18}
+  //             x2={36}
+  //             y2="15.5"
+  //             gradientUnits="userSpaceOnUse"
+  //           >
+  //             <stop offset=".194" stopColor="#fff" />
+  //             <stop offset={1} stopColor="#6692F1" />
+  //           </linearGradient>
+  //         </defs>
+  //         <path
+  //           d="m30 15-4 5-4-11-4 18-4-11-4 7-4-5"
+  //           stroke={`url(#${id})`}
+  //           strokeWidth={2}
+  //           strokeLinecap="round"
+  //           strokeLinejoin="round"
+  //         />
+  //       </>
+  //     )
+  //   },
+  // },
 ]
 
 function Feature({
@@ -174,7 +174,7 @@ function FeaturesDesktop() {
     <Tab.Group as="div" className="hidden lg:mt-20 lg:block">
       {({ selectedIndex }) => (
         <>
-          <Tab.List className="grid grid-cols-3 gap-x-8">
+          <Tab.List className="grid grid-cols-2 gap-x-8">
             {features.map((feature, featureIndex) => (
               <Feature
                 key={feature.summary}
@@ -234,13 +234,13 @@ export function SecondaryFeatures() {
       <Container>
         <div className="mx-auto max-w-6xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-            유연한 일자리에 모델에 참여하세요
+            각 포지션에 맞춰 유연한 채용 기회를 얻어가세요
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            우리는 사용자들에게 단기 부수입과 원하는 커리어를 제공할 수
+            BeyondKoders는 사용자들에게 원하는 커리어와 금전적 이익을 제공할 수
             있습니다.
-            <br /> 기업에게는 적은 비용으로 품질 높은 인력을 확보할 수 있는
-            모델을 제안합니다.
+            <br /> 기업에게는 적은 비용으로 품질 높은 인력을 채용할 수 있는
+            기회를 제공합니다.
           </p>
         </div>
         <FeaturesMobile />

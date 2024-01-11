@@ -24,8 +24,10 @@ export function CallToAction() {
             오늘부터 시작해보세요!
           </h2>
           <p className="mt-4 text-lg tracking-tight text-white">
-            서비스 체험 기간 내 단기 채용 완료 시, 장기 채용 할인 쿠폰을
-            제공드립니다. 채용 시장의 드라마틱한 변화를 직접 체험해보세요!
+            서비스 체험 기간 내 단기 채용 완료 시, <br /> 장기 채용 할인 쿠폰을
+            제공드립니다. <br /> 채용 시장의 드라마틱한 변화를 직접
+            체험해보세요.
+            <br /> * 서비스 기간: 2024년 01월 ~ 07월
           </p>
           <Button href="/register" color="white" className="mt-10">
             <svg

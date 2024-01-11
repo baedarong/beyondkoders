@@ -67,8 +67,8 @@ export function Faqs() {
             자주 묻는 질문
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            계약이 체결된 이후에도 꾸준한 모니터링으로 다양한 측면에서의
-            해결책들을 도입하고 있습니다.
+            계약이 체결된 이후에도 걱정하지 마세요! <br /> BeyondKoders의 꾸준한
+            모니터링으로 다양한 측면에서의 문제점을 해결하고 있습니다.
           </p>
         </div>
         <ul

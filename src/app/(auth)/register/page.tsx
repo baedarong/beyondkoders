@@ -27,17 +27,15 @@ export default function Register() {
           />
         </Link>
       </div>
-      <h2 className="mt-20 text-lg font-semibold text-gray-900">
-        시작하기 for free
-      </h2>
+      <h2 className="mt-20 text-lg font-semibold text-gray-900">시작하기</h2>
       <p className="mt-2 text-sm text-gray-700">
-        Already registered?{' '}
+        Already registered? <br />
         <Link
           href="/login"
           className="font-medium text-purple-600 hover:underline"
         >
           Sign in
-        </Link>{' '}
+        </Link>
         to your account.
       </p>
       <form
