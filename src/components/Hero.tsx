@@ -20,8 +20,7 @@ export function Hero() {
           <span className="relative"> 한국 경계를 넘어! </span>
         </span>
         <br />
-        베트남, 인도네시아 등 <br />
-        전세계에 걸친 직무 전문가들과 <br />
+        전세계에 걸친 전문가들과 <br />
         함께 협업할 수 있는 <br /> 신개념 채용 서비스를 제공합니다. <br />
       </h1>
       <p className="mx-auto mt-6 max-w-6xl text-lg tracking-tight text-slate-700">

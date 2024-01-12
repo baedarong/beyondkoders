@@ -45,7 +45,7 @@ const features: Array<Feature> = [
   {
     name: '기업',
     summary:
-      '고품질 저비용 고용 모델은 기업의 인건비를 효과적으로 줄이는데 도움이 됩니다.',
+      '고품질 저비용 채용 모델은 기업의 인건비를 효과적으로 줄이는데 도움이 됩니다.',
     description:
       '적은 비용으로 품질 높은 인력을 기업에 제공하여 구인구직 어려움을 겪는 기업에 실질적인 도움을 줍니다. ',
     image: company,
@@ -234,11 +234,10 @@ export function SecondaryFeatures() {
       <Container>
         <div className="mx-auto max-w-6xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-            각 포지션에 맞춰 유연한 채용 기회를 얻어가세요
+            각 포지션에 맞춰 원하는 채용 경험을 얻어가세요
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            BeyondKoders는 사용자들에게 원하는 커리어와 금전적 이익을 제공할 수
-            있습니다.
+            BeyondKoders는 사용자들에게 원하는 커리어와 금전적 이익을 제공하며,
             <br /> 기업에게는 적은 비용으로 품질 높은 인력을 채용할 수 있는
             기회를 제공합니다.
           </p>

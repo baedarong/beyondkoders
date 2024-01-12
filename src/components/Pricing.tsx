@@ -121,7 +121,7 @@ export function Pricing() {
       <Container>
         <div className="md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
-            사용만 만큼만 수수료를 지불하세요,
+            사용한 만큼만 수수료를 지불하세요,
             <span className="relative whitespace-nowrap">
               <SwirlyDoodle className="absolute left-0 top-1/2 h-[1em] w-full fill-purple-400" />
               <span className="relative pl-2 text-purple-600">
@@ -131,7 +131,7 @@ export function Pricing() {
           </h2>
           <p className="mt-4 text-lg text-slate-400">
             변동 수수료 모델은 견적 금액에 따라 차등된 수수료를 적용하며, 다양한
-            프로젝트 규모의 크기에 따라 유연하게 대처할 수 있습니다.
+            프로젝트 규모의 크기에 대해 유연하게 대처할 수 있습니다.
           </p>
         </div>
         <div className="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
