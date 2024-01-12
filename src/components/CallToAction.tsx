@@ -30,6 +30,7 @@ export function CallToAction() {
             <br /> * 서비스 기간: 2024년 01월 ~ 07월
           </p>
           <Button href="/register" color="white" className="mt-10">
+            시작하기
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -44,7 +45,6 @@ export function CallToAction() {
                 d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
               />
             </svg>
-            시작하기
           </Button>
         </div>
       </Container>

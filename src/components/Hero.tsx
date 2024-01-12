@@ -6,7 +6,7 @@ import { Button } from './Button'
 export function Hero() {
   return (
     <Container className="pb-16 pt-20 text-center lg:pt-32">
-      <h1 className="mx-auto max-w-6xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-5xl">
+      <h1 className="mx-auto max-w-6xl font-display text-3xl font-medium tracking-tight text-slate-900 sm:text-4xl md:text-5xl">
         BeyondKorders를 통해 <br />
         <span className="relative whitespace-nowrap text-purple-600">
           <svg
@@ -29,6 +29,7 @@ export function Hero() {
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
         <Button href="/register">
+          시작하기
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -43,7 +44,6 @@ export function Hero() {
               d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
             />
           </svg>
-          시작하기
         </Button>
         {/* <Button
           href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"

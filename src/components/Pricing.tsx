@@ -103,9 +103,9 @@ function Plan({
         variant={featured ? 'solid' : 'outline'}
         color="white"
         className="mt-8"
-        aria-label={`시작하기 with the ${name} plan for ${price}`}
+        aria-label={`문의하기 with the ${name} plan for ${price}`}
       >
-        시작하기
+        문의하기
       </Button>
     </section>
   )
