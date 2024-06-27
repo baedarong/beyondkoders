@@ -28,9 +28,10 @@ export function Hero() {
         <br /> 기업은 적은 비용으로 품질 높은 인력을 채용할 수 있습니다.
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
-        <Button href="/register">
-          시작하기
-          <svg
+        {/* <Button href="/register"> */}
+        <Button href="#">
+          이 페이지는 데모 페이지입니다. 플랫폼서비스연구팀에 문의 바랍니다.
+          {/* <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
@@ -43,7 +44,7 @@ export function Hero() {
               strokeLinejoin="round"
               d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
             />
-          </svg>
+          </svg> */}
         </Button>
         {/* <Button
           href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
@@ -58,7 +59,7 @@ export function Hero() {
           <span className="ml-3">Watch video</span>
         </Button> */}
       </div>
-      <div className="mt-24">
+      {/* <div className="mt-24">
         <p className="font-display text-base text-slate-900">Supported By</p>
         <ul
           role="list"
@@ -90,7 +91,7 @@ export function Hero() {
             </li>
           ))}
         </ul>
-      </div>
+      </div> */}
     </Container>
   )
 }
