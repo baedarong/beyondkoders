@@ -30,7 +30,7 @@ export function Hero() {
       <div className="mt-10 flex justify-center gap-x-6">
         {/* <Button href="/register"> */}
         <Button href="#">
-          이 페이지는 데모 페이지입니다. 플랫폼서비스연구팀에 문의 바랍니다.
+          이 페이지는 데모 페이지입니다. 실제 사이트가 아님에 유의해주세요.
           {/* <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
